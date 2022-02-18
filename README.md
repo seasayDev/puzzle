@@ -22,8 +22,7 @@ Saliou Cisse (CISS20129907)
 ## État du projet 
 
 * [x] Le nom du dépôt GitLab est exactement `inf3135-hiv2022-tp2`. 
-* [x] L'URL du dépôt GitLab est exactement (remplacer `utilisateur` par votre
-  nom identifiant GitLab) `https://gitlab.info.uqam.ca/utilisateur/inf3135-hiv2022-tp2`.
+* [x] L'URL du dépôt GitLab est exactement  `https://gitlab.info.uqam.ca/cisse.saliou/inf3135-hiv2022-tp2`.
   
 * [x] Les usagers `tim.willy`, `zavaleta_chuquicaja.willy`, `bernardos.pedro_luis` et `dogny_g` ont accès au projet en mode *Developer*.
 * [x] Le dépôt GitLab est privé.
