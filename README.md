@@ -8,6 +8,7 @@ Ce projet effectué dans le cadre du cours INF3135 - Construction et maintenance
 
 
 ## Auteur 
+Saliou Cisse (CISS20129907)
 
 ## Fonctionnement
 
