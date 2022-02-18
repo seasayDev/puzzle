@@ -1,7 +1,7 @@
 # TP2: Résolution de mots cachés 
 ## Description
 **Résolution de Mot cachés** est un logiciel écrit en langage C qui permet de découvrir un mot caché dans une grille.  Il fonctionne à la console en recevant à l'entrée (`stdin`) un fichier contenant les mots et illustre à l'écran (`stdout`) la solution. \
-Ce projet effectué dans le cadre du cours INF3135 - Construction et maintenance de logiciel dispensé par l'éminant professeur Mr [Dogny, Serge](https://gitlab.info.uqam.ca/dogny_g) à l'université du Québec à Montréal (UQAM).
+Ce projet est effectué dans le cadre du cours INF3135 - Construction et maintenance de logiciel dispensé par l'éminant professeur Mr [Dogny, Serge](https://gitlab.info.uqam.ca/dogny_g) à l'université du Québec à Montréal (UQAM).
 
 
 ### Contenu du Projet 
@@ -21,7 +21,7 @@ Saliou Cisse (CISS20129907)
 
 ## État du projet 
 
-* [x] Le nom du dépôt GitLab est exactement `inf3135-huv2022-tp2`. 
+* [x] Le nom du dépôt GitLab est exactement `inf3135-hiv2022-tp2`. 
 * [x] L'URL du dépôt GitLab est exactement (remplacer `utilisateur` par votre
   nom identifiant GitLab) `https://gitlab.info.uqam.ca/utilisateur/inf3135-hiv2022-tp2`.
   
