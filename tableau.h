@@ -45,6 +45,15 @@ void trouver_mots( FILE* fichier, tableau tableau );
 void afficher_lettre_restante( tableau tableau );
 
 
+/**
+ * Permet de chercher un mot dans le tableau dans les quatres
+ * directions. 
+ *  
+ * @param mot : Le mot à chercher dans le tableau.
+ * @param tableau : Le tableau contenant les données.
+ */
+void chercher_mot_dans_tableau( char *mot, tableau tableau );
+
 
 #endif
 
