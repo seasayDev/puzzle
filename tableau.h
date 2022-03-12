@@ -26,6 +26,16 @@
 void lire_tableau( FILE* fichier, tableau tableau );
 
 
+/**
+ * Permet de lire la liste des mots à trouver en recherchant dans
+ * le tableau
+ * 
+ * @param tableau : Le tableau contenant les données.
+ * @param fichier : Le fichier contenant la grille.
+ */
+void trouver_mots( FILE* fichier, tableau tableau );
+
+
 
 #endif
 
