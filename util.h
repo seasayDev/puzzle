@@ -24,6 +24,8 @@
 #define TAMPON 20
 #define MSG_ERR_ARGUMENTS  "Arguments incorrectes!\n" \
                             "%s  <fichier entree>\n"
+#define MSG_ERR_LECTURE    "Impossible de lire le fichier!\n"\
+                            "recommencer"
 
 
 
