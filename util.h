@@ -51,6 +51,13 @@ typedef enum {
 typedef struct carre tableau[LARGEUR][HAUTEUR];
 
 
+/**
+ * Permet de retirer les espaces sur une chaine.
+ * 
+ * @param chaine : la chaine a editer. 
+ */
+void retirer_espace ( char *chaine);
+    
 
 
 
