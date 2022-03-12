@@ -19,6 +19,10 @@
 #include <ctype.h>
 #include <stdlib.h>
 
+#define LARGEUR 12
+#define HAUTEUR 12
+#define TAMPON 20
+
 
 
 #endif
