@@ -22,6 +22,10 @@
 #define LARGEUR 12
 #define HAUTEUR 12
 #define TAMPON 20
+#define MSG_ERR_ARGUMENTS  "Arguments incorrectes!\n" \
+                            "%s  <fichier entree>\n"
+
+
 
 
 
