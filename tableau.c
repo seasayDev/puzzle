@@ -18,6 +18,14 @@ void lire_tableau( FILE* fichier, tableau tableau ) {
       }
    }
 
+void trouver_mots( FILE* fichier, tableau tableau ) {
+   char mot[TAMPON];
+
+   while ( fgets ( mot, TAMPON, fichier ) != NULL ) {
+      retirer_espace( mot );
+      chercher_mot_dans_tableau( mot, tableau );
+   }
+}
 
 
 
