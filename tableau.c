@@ -1,5 +1,6 @@
 #include "util.h"
 #include "tableau.h"
+#include "grille.h"
 
 
 
