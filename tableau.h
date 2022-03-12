@@ -16,6 +16,15 @@
 
 #include "util.h"
 
+/**
+ * Permet de lire la grille du fichier d'entrée et copier 
+ * les données dans le tableau.
+ * 
+ * @param tableau : Le tableau contenant les données.
+ * @param fichier : Le fichier contenant la grille.
+ */
+void lire_tableau( FILE* fichier, tableau tableau );
+
 
 
 #endif
