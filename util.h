@@ -44,6 +44,14 @@ typedef enum {
 } error;
 
 
+/**
+ * Un tableau de {@code carre} de taille {@code LARGEUR} par {@code HAUTEUR}
+ *
+ */
+typedef struct carre tableau[LARGEUR][HAUTEUR];
+
+
+
 
 
 
