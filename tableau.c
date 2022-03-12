@@ -40,6 +40,28 @@ void afficher_lettre_restante( tableau tableau ) {
 }
 
 
+void chercher_mot_dans_tableau( char *mot, tableau tableau ) {
+   for ( int v = 0; v < HAUTEUR; v++ ) {
+      for ( int h = 0; h < LARGEUR; h++ ) {
+
+         if ( tableau[h][v].lettre == mot[0] ) {
+
+            if ( lire_vers_la_droite( mot, tableau, h, v ) ) {
+               return;
+            }
+            else if ( lire_vers_le_bas( mot, tableau, h, v ) ) {
+               return;
+            }
+            else if ( lire_vers_la_gauche( mot, tableau, h, v ) ) {
+               return;
+            }
+            else if ( lire_vers_le_haut( mot, tableau, h, v ) ) {
+               return;
+            }
+         }
+      }
+   }
+}
 
 
 
