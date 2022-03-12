@@ -27,6 +27,12 @@
 #define MSG_ERR_LECTURE    "Impossible de lire le fichier!\n"\
                             "recommencer"
 
+// structure d'un carre
+struct carre {
+   char lettre;
+   bool utilise;
+};
+
 
 
 
