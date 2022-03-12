@@ -27,6 +27,18 @@ void trouver_mots( FILE* fichier, tableau tableau ) {
    }
 }
 
+void afficher_lettre_restante( tableau tableau ) {
+   for ( int v = 0; v < HAUTEUR; v++ ) {
+      for ( int h = 0; h < LARGEUR; h++ ) {
+
+         if ( tableau[h][v].utilise == false ) {
+            printf( "%c", tableau[h][v].lettre );
+         }
+      }
+   }
+   printf("\n");
+}
+
 
 
 
