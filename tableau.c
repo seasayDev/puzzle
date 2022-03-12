@@ -1,4 +1,5 @@
 #include "util.h"
+#include "tableau.h"
 
 
 
@@ -15,6 +16,7 @@ void lire_tableau( FILE* fichier, tableau tableau ) {
          tableau[h][v].lettre = ligne[h];
       }
    }
+
 
 
 
