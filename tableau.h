@@ -36,6 +36,15 @@ void lire_tableau( FILE* fichier, tableau tableau );
 void trouver_mots( FILE* fichier, tableau tableau );
 
 
+/**
+ * Permet de parcourir le tableau pour afficher les lettres 
+ * restantes non utilisées. 
+ * 
+ * @param tableau : Le tableau dans contenant les mots.
+ */
+void afficher_lettre_restante( tableau tableau );
+
+
 
 #endif
 
