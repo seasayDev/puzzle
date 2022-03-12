@@ -29,5 +29,20 @@
 bool lire_vers_la_droite( char *mot, tableau tableau, int position_h, int position_v );
 
 
+/**
+ * Permet de lire vers la gauche les lettres du tableau.
+ * 
+ *  
+ * @param mot : Le mot à chercher
+ * @param tableau : Le tableau contenant les données. 
+ * @param position_h : La position horizontale.
+ * @param position_v : La position verticale.
+ * 
+ * @returns Vrai si le mot a été trouvé, sinon elle retourne Faux.
+ */
+bool lire_vers_la_gauche( char *mot, tableau tableau, int position_h, int position_v );
+
+
+
 
 #endif
