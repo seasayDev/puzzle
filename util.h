@@ -33,6 +33,16 @@ struct carre {
    bool utilise;
 };
 
+/**
+ * Une liste de constantes d'erreurs survenus dans le programme.
+ * 
+ */
+typedef enum {
+    OK                         = 0,
+    ERREUR_ARGUMENTS_INVALIDES = 1,
+    ERREUR_LECTURE_FICHIER     = 2
+} error;
+
 
 
 
