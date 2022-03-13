@@ -161,8 +161,8 @@ $ make test
 
 ## Dépendances 
 
-* [GCC](#) 
-* [Bats](#)
+* [GCC](https://gcc.gnu.org/) 
+* [Bats](https://github.com/sstephenson/bats)
 
 
 ## Références
