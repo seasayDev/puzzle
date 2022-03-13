@@ -163,6 +163,12 @@ $ make test
 
 ## Références
 
+* La documentation officielle de Gitlab, <https://docs.gitlab.com>  
+* Bats:Bash automated testing system, <https://github.com/sstephenson/bats>
+* Two dimensional(2D) arrays in C programming, <https://beginnersbook.com/2014/01/2d-arrays-in-c-example>
+
+* C File Handling, <https://www.programiz/c-programming/c-file-input-output> 
+
 ## État du projet 
 
 * [x] Le nom du dépôt GitLab est exactement `inf3135-hiv2022-tp2`. 
