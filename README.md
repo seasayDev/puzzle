@@ -176,10 +176,14 @@ $ make test
 ## État du projet 
 
 * [x] Le nom du dépôt GitLab est exactement `inf3135-hiv2022-tp2`. 
-* [x] L'URL du dépôt GitLab est exactement  `https://gitlab.info.uqam.ca/cisse.saliou/inf3135-hiv2022-tp2`.
+* [x] L'URL du dépôt GitLab est exactement  [`https://gitlab.info.uqam.ca/cisse.saliou/inf3135-hiv2022-tp2`](`https://gitlab.info.uqam.ca/cisse.saliou/inf3135-hiv2022-tp2`).
   
 * [x] Les usagers `tim.willy`, `zavaleta_chuquicaja.willy`, `bernardos.pedro_luis` et `dogny_g` ont accès au projet en mode *Developer*.
 * [x] Le dépôt GitLab est privé.
 * [x] Le dépôt contient au moins un fichier `.gitignore`.
-
+* [x] L'en-tête des déclarations des fonctions est documentée (docstring).
+* [x] Le nombre de tests qui reussissent/échouent avec le make test est indiqué quelque part dans le fichier `README.md` 
+* [x] L'en-tête du fichier est documentée.
+* [x] Le fichier `Makefile` supporte les cibles `compile`, `link`, `test`. 
+* [x] Le programme ne contient pas de valeurs magiques. 
 
