@@ -5,3 +5,9 @@ before_script:
     - bash /tmp/bats/install.sh /tmp/local
     - export PATH=$PATH:/tmp/local/bin
 
+build:
+    stage: build
+    script:
+        - make
+
+
