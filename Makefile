@@ -18,4 +18,12 @@ util.0: util.h util.c
 
 grille.o: grille.c grille.h util.h
 	$(CC) $(OPTIONS)  grille.c 
+	
+
+
+.PHONY: clean 
+
+clean: 
+	rm -rf *.o  $(EXEC)
+
 
