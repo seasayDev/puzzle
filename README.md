@@ -28,6 +28,120 @@ Ce projet est effectué dans le cadre du cours INF3135 - Construction et mainten
 Saliou Cisse (CISS20129907)
 
 ## Fonctionnement
+Ce programme prend en entrée (`stdin`) un fichier d'entrée sous la forme:
+
+```sh
+  ./motcache  <fichierTexte>
+```
+
+* en supposant que l'utilisateur respecteras le format d'exécutution du programme.
+* Le fichier contiendra la grille de lettres et les mots à trouver. 
+* La grille fait une taille de 12 lettres par 12 lettres.
+* Les 12 premières lignes du fichier contiendront les 12
+lignes de la grille, ensuite une ligne vide et finalement la liste de mots à trouver:
+```text
+FASERGEWEBPI
+APSREREBASEN
+UTHSCAQUGNUF
+LTEGNICBASHO
+TNRIADLUYENR
+NGBTIGONNEBM
+INRPBNNTGATA
+MIOQEOEUORUT
+KXOEDMNNDTQI
+CEKIEEGADNAQ
+CYETAHCRAIMU
+GIFTPTIMMOCE
+
+GIT
+DEBIAN
+COMMIT
+UQAM
+WEB
+REBASE
+SHERBROOKE
+SERGE
+AGEEI
+BEN
+MINT
+CAQ
+GNU
+UBUNTU
+ARCH
+GNOME
+INFORMATIQUE
+INTRA
+CLONE
+NGNIX
+DOGNY
+BASH
+GCC
+APT
+PQ
+FTP
+CHAT
+GIFT
+FAULT
+LTE
+```
+
+Tout d'abord, obtenir le projet à partir de gitlab:
+
+```sh
+$ git clone  https://gitlab.info.uqam.ca/cisse.saliou/inf3135-hiv2022-tp2 
+$ cd inf3135-hiv2022-tp2
+```
+Ensuite, compilez programme avec la  commande `make` pour générer l'éxécutable `<executable>` du programme:
+
+```sh
+$ make
+```
+
+Puis vérifier effectivememt la production de l'éxecutable `motcache` avec la commande `ls` en environnement UNIX:
+
+```sh
+$ ls 
+check.bats  grille.h  Makefile  motcache.c  README.md  tableau.h  Tests   util.h
+grille.c    grille.o  motcache  motcache.o  tableau.c  tableau.o  util.c  util.o
+```
+Si vous lancer le programme sans argument, il affiche un message d'erreur pour vous solliciter à saisir un argument valide:
+
+
+```sh
+$./motcache
+Arguments incorrectes!
+./motcache  <fichier entree>
+```
+
+Sinon exécuter le programme avec un fichier valide, il affiche `la solution` du mot caché dans la liste:
+
+```sh
+$./motcache entree.txt
+$ PRESIDENTKENNEDY
+```
+
+Si vous exécutez le programme avec plusieurs arguments, il produit un message d'erreur:
+
+```sh
+$./motcache entree1.txt entree2.txt 
+Arguments incorrectes!
+./motcache  <fichier entree>
+```
+
+En executant le programme avec un fichier inexistant, elle affiche un message d'erreur de lecture: 
+
+```sh
+$./motcache sersss
+Impossible de lire le fichier!
+```
+
+Finalement pour pour supprimer l'exécutable et les fichiers inutiles ou  générés (`*.0`,`motcache`), cette commande `make clean` serait indispensable:
+
+```sh
+$ make clean
+rm -rf *.o  motcache
+```
+
 
 ## Tests 
 
