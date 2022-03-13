@@ -42,4 +42,8 @@ erreur_lecture="Impossible de lire le fichier!"
 
 }
 
+@test "test5 : Resoudre Venise" {
 
+    run ./$prog  $tests_folder/venise.txt
+    [ "${lines[0]}" = "VENISE" ]
+}
