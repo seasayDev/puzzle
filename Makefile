@@ -1,5 +1,5 @@
 CC = gcc 
-OPTIONS = -Wall -c  
+OPTIONS = -Wall -std=c11 -c  
 OFLAGS = -o
 EXEC = motcache 
 
