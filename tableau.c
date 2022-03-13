@@ -1,9 +1,7 @@
+
 #include "util.h"
 #include "tableau.h"
 #include "grille.h"
-
-
-
 
 
 void lire_tableau( FILE* fichier, tableau tableau ) {
@@ -17,6 +15,8 @@ void lire_tableau( FILE* fichier, tableau tableau ) {
          tableau[h][v].lettre = ligne[h];
       }
    }
+}
+
 
 void trouver_mots( FILE* fichier, tableau tableau ) {
    char mot[TAMPON];
@@ -26,6 +26,7 @@ void trouver_mots( FILE* fichier, tableau tableau ) {
       chercher_mot_dans_tableau( mot, tableau );
    }
 }
+
 
 void afficher_lettre_restante( tableau tableau ) {
    for ( int v = 0; v < HAUTEUR; v++ ) {
@@ -62,6 +63,13 @@ void chercher_mot_dans_tableau( char *mot, tableau tableau ) {
       }
    }
 }
+
+
+
+
+
+
+
 
 
 
