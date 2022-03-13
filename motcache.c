@@ -11,8 +11,23 @@
  * cisse.saliou@courrier.uqam.ca 
  * @version 2022-03-07
  */
+ 
+ 
 
 
-int main(int argc, char* argv[]) {
+int main(int argc, char** argv) {
+   
+   char *adresse = argv[1];
+   FILE *fichier;
+   tableau tableau;
+   	
+   lire_tableau( fichier, tableau );
+   trouver_mots( fichier, tableau );
+   afficher_lettre_restante( tableau );
+   
+   fclose( fichier );
+   }
+  	
+ 
     return 0;
 }
