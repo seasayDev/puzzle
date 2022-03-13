@@ -25,7 +25,8 @@ link: compile
 	$(CC) $(OFLAGS) $(EXEC) motcache.o grille.o util.o tableau.o
 
 
-
+test: 
+    bats check.bats 
 
 .PHONY: clean 
 
