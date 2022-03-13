@@ -145,6 +145,19 @@ rm -rf *.o  motcache
 
 ## Tests 
 
+Pour lancer la suite des tests automatiques, nous utilisons sur l'entrée standard la commande `make test` pour verifier que le programme réponds aux éxigences:
+
+```sh
+$ make test
+ bats check.bats
+ ✓ test0 : Programme sans argument, afficher message
+ ✓ test1 : Plusieurs arguments, afficher message
+ ✓ test2 : Afficher mot cache: President kennedy
+ ✓ test3 : Afficher mot cache: Mandoline
+ ✓ test4 : Fichier inexistants, afficher un message
+
+5 tests, 0 failures
+```
 
 ## Dépendances 
 
