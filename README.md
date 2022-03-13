@@ -155,8 +155,9 @@ $ make test
  ✓ test2 : Afficher mot cache: President kennedy
  ✓ test3 : Afficher mot cache: Mandoline
  ✓ test4 : Fichier inexistants, afficher un message
+ ✓ test5 : Resoudre Venise
 
-5 tests, 0 failures
+6 tests, 0 failures
 ```
 
 ## Dépendances 
