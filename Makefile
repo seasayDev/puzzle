@@ -1,2 +1,4 @@
-compile:
-	gcc -o motcache  -Wall -std=c11  motcache.c 
+CC = gcc 
+OPTIONS = -Wall -c 
+OFLAGS = -o 
+EXEC = motcache
