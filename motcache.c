@@ -16,21 +16,36 @@
 
 
 int main(int argc, char** argv) {
-   
+   //Déclaration des variables 
    char *adresse = argv[1];
    FILE *fichier;
    tableau tableau;
-   		
-   	
-   	
-   lire_tableau( fichier, tableau );
-   trouver_mots( fichier, tableau );
-   afficher_lettre_restante( tableau );
    
-   
-   fclose( fichier );
+
+   //traitement argument invalides
+   if (argc != 2 || argc > 2)
+   {
+      fprintf(stderr, MSG_ERR_ARGUMENTS, argv[0]);
+      exit(ERREUR_ARGUMENTS_INVALIDES);
    }
-  	
- 
-    return OK;
-}
+
+   // traitement de la lecture
+   else if ((fichier = fopen(adresse, "r")) == NULL)
+   {
+      fprintf(stderr, MSG_ERR_LECTURE);
+      return ERREUR_LECTURE_FICHIER;
+   }
+   else
+   {
+      // traitement du programme
+      lire_tableau(fichier, tableau);
+      trouver_mots(fichier, tableau);
+      afficher_lettre_restante(tableau);
+
+      // fermeture du fichier et fin du programme.
+      fclose(fichier);
+   }
+   return OK;
+   
+   
+   }
