@@ -4,6 +4,8 @@ OFLAGS = -o
 EXEC = motcache
 
 
+all: link
+
 
 compile: motcache.o tableau.o util.o grille.o
 
@@ -21,6 +23,7 @@ grille.o: grille.c grille.h util.h
 	
 link: compile 
 	$(CC) $(OFLAGS) $(EXEC) motcache.o grille.o util.o tableau.o
+
 
 
 
