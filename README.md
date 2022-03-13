@@ -161,6 +161,10 @@ $ make test
 
 ## Dépendances 
 
+* [GCC](#) 
+* [Bats](#)
+
+
 ## Références
 
 * La documentation officielle de Gitlab, <https://docs.gitlab.com>  
